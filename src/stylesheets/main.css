@@ -7,7 +7,19 @@ td{
 }
 table{
     text-align:center;
-
+}
+header{
+    background-color: #974e41;
+    color: rgb(228, 228, 228);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header a{
+    color: rgb(212, 168, 142);
+    text-decoration: wavy underline;
 }
 caption{
     color:rgb(288, 228, 228);
