@@ -9,6 +9,11 @@ table{
     text-align:center;
 
 }
+caption{
+    color:rgb(288, 228, 228);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 h1{
     color: #804339;
     text-align: center;
@@ -16,6 +21,12 @@ h1{
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
     font-weight: bolder;
     font-size: 2.5em;
+}
+tfoot{
+    background-color: #974e41;
+    color: rgb(228, 228, 228);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 .table-container{
     width: 80%;
