@@ -1,1 +1,12 @@
-/* Your styles go here */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://img.freepik.com/premium-photo/dark-movie-theatre-interior_847423-3360.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
