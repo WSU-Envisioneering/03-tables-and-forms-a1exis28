@@ -1,12 +1,10 @@
-html, body {
+html, body{
     height: 100%;
     margin: 0;
 }
-
-body {
+body{
     background-image: url(https://img.freepik.com/premium-photo/dark-movie-theatre-interior_847423-3360.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 }
