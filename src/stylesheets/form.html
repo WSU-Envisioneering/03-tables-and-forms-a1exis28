@@ -12,6 +12,66 @@
     <title>Ticket Booking</title>
 </head>
 <body>
-    
+    <h1>Ticket Booking</h1>
+    <form action="get">
+        <label for="movie">Select Movie:</label>
+        <select id="movie" name="movie" required>
+            <option value="jurassic">Jurassic World Rebirth</option>
+            <option value="final_destination">Final Destination Bloodlines</option>
+            <option value="f1_movie">F1 The Movie</option>
+            <option value="karate_kid">Karate Kid: Legends</option>
+            <option value="m3gan_2.0">M3GAN 2.0</option>
+            <option value="lilo_stitch">Lilo & Stitch</option>
+            <option value="mission_impossible">Mission: Impossible | The Final Reckoning</option>
+            <option value="28_years">28 Years Later</option>
+        </select>
+        <br>
+        <br>
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <br>
+        <label for="time">Select Time:</label>
+        <input type="time" id="time" name="time" required>
+        <br>
+        <br>
+        <label for="seating_placement">Seats:</label>
+        <input type="radio" name="seating_placement" value="front" checked>Front Row<br><br>
+        <input type="radio" name="seating_placement" value="middle"checked>Middle Row<br><br>
+        <input type="radio" name="seating_placement" value="back"checked>Back Row<br><br>
+        <input type="radio" name="seating_placement" value="vip"checked>VIP Seats<br><br>
+        <input type="radio" name="seating_placement" value="accessible"checked>Accessible Seating<br><br>
+        <br>
+        <br>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your name" required>
+        <br>
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+        <br>
+        <br>
+        <label for="seats">Number of Seats:</label>
+        <input type="number" id="seats" name="seats" min="1" max="10" required>
+        <br>
+        <br>
+        <label for="payment">Payment Method:</label>
+        <select name="payment" id="payment" required>
+            <option value="credit_card">Credit Card</option>
+            <option value="debit_card">Debit Card</option>
+            <option value="paypal">PayPal</option>
+            <option value="apple_pay">Apple Pay</option>
+            <option value="google_pay">Google Pay</option>
+            
+
+        <button type="submit">Book Tickets</button>
+        <br>
+        <button type="reset">Reset</button>
+    </form>
+
 </body>
 </html>

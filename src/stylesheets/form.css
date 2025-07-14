@@ -1,0 +1,51 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-photo/dark-movie-theatre-interior_847423-3360.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+header{
+    background-color: #974e41;
+    color: rgb(228, 228, 228);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header a{
+    color: rgb(212, 168, 142);
+    text-decoration: wavy underline;
+}
+h1{
+    color: #804339;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(228, 228, 228);
+    font-weight: bolder;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+    color:#804339
+}
