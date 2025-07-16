@@ -35,17 +35,89 @@ label{
     font-weight: bolder;
 }
 form{
-    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 50%;
+    width: 30%;
     margin: 20px auto;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
-input[type="checkbox"]{
+.twonext{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 10px;
+    color:rgb(228, 228, 228);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.middleplace{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color:rgb(228, 228, 228);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+select{
+    width: 40%;
+    padding: 10px;
+    background-color:#974e41;
+    color: rgb(228, 228, 228);
+    border-radius: 5px;
+    border: 4px solid #552e28;
+    background-color: #974e41;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+    width: 25%;
+    padding: 10px;
+    background-color:#974e41;
+    color: rgb(228, 228, 228);
+    border-radius: 5px;
+    border: 4px solid #552e28;
+    background-color: #974e41;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button[type="submit"]{
+    background-color: #552e28;
+    color: rgb(228, 228, 228);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button[type="submit"]:hover{
+    background-color: #974e41;
+    color: rgb(212, 168, 142);
+}
+button[type="reset"]{
+    background-color: #832a1a;
+    color: rgb(228, 228, 228);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button[type="reset"]:hover{
+    background-color: #b91c00;
+    color: rgb(0, 0, 0);
+}
+input[type="radio"] {
     margin-right: 10px;
-    color:#804339
+    cursor: pointer;
+    accent-color:#995247;
 }
